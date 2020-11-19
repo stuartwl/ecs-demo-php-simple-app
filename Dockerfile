@@ -1,4 +1,5 @@
-FROM "${REPOSITORY_URI}":1fef2e44
+ARG REPOSITORY_URI
+FROM ${REPOSITORY_URI}:1fef2e44
 
 # Install dependencies
 #RUN apt-get update -y
