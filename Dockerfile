@@ -1,6 +1,4 @@
-ARG REPOSITORY_URI=${REPOSITORY_URI}
-RUN echo $REPOSITORY_URI
-FROM REPOSITORY_URI:1fef2e44
+FROM "${REPOSITORY_URI}":1fef2e44
 
 # Install dependencies
 #RUN apt-get update -y
